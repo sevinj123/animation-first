@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 10%;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+    margin: 29px 30px;
+    background-color: greenyellow;
+    position: relative;
+    animation-name:button;
+    animation-duration: 2s;
+}
+
+@keyframes button{
+0%{
+    transform: rotate(0deg);
+    left: 0;
+}
+25%{
+    transform: rotate(20deg);
+    left: 0;
+
+}
+50%{
+    transform: rotate(0deg);
+    left: 0;
+}
+75%{
+    transform: rotate(0deg);
+    left: 300px;
+}
+100%{
+    transform: rotate(-360deg);
+    left: 0px;
+}
+   
+}
